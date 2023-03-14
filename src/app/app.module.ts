@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.component';
 
 const routes: Routes = [];
 
@@ -14,6 +15,7 @@ const routes: Routes = [];
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    NaoEncontradoComponent,
   ],
   imports: [
     BrowserModule,
